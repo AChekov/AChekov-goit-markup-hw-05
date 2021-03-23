@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
 </head>
 <body class="body">
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                <a class="logo-link-light link logo" href="index.html" lang="en"> 
+                <a class="logo-link-light link logo animate__backInDown" href="index.html" lang="en"> 
                     <span class="web">Web</span>Studio
                 </a>
                 <ul class="navigation-list list">
@@ -25,7 +26,7 @@
                         <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="navigation-item list">
-                        <a class="navigation-link link" href="">Контакты</a>
+                        <a class="navigation-link link" href="#">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -108,13 +109,22 @@
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="we-doing-list">
                     <li class="we-doing-list-item list">
-                        <img src="img/our-work/coding.jpg" alt="верстка сайтов" width="370" height="294">
+                        <div class="we-doing-item-wrapper">
+                            <img src="img/our-work/coding.jpg" alt="верстка сайтов" width="370" height="294"> 
+                            <p class="we-doing-item-overlay">Десктопные приложения</p>
+                        </div>
                     </li>
                     <li class="we-doing-list-item list">
-                        <img src="img/our-work/stylization.jpg" alt="стилизация под годжеты" width="370" height="294">
+                        <div class="we-doing-item-wrapper">
+                            <img src="img/our-work/stylization.jpg" alt="стилизация под годжеты" width="370" height="294">
+                            <p class="we-doing-item-overlay">Мобильные приложения</p>
+                        </div>
                     </li>
                     <li class="we-doing-list-item list">
-                        <img src="img/our-work/design.jpg" alt="дизайн сайтов" width="370" height="294">
+                        <div class="we-doing-item-wrapper">
+                            <img src="img/our-work/design.jpg" alt="дизайн сайтов" width="370" height="294">
+                            <p class="we-doing-item-overlay">Дизайнерские решения</p>
+                        </div>
                     </li>
                 </ul>
             </div>
